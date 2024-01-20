@@ -1,0 +1,565 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Form version="1.5" maxVersion="1.9" type="org.netbeans.modules.form.forminfo.JFrameFormInfo">
+  <NonVisualComponents>
+    <Menu class="javax.swing.JMenuBar" name="jMenuBar3">
+      <SubComponents>
+        <Menu class="javax.swing.JMenu" name="jMenu7">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Rezervna kopija"/>
+          </Properties>
+          <SubComponents>
+            <MenuItem class="javax.swing.JMenuItem" name="jMenuItem7">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="kopija"/>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jMenuItem7ActionPerformed"/>
+              </Events>
+            </MenuItem>
+          </SubComponents>
+        </Menu>
+      </SubComponents>
+    </Menu>
+  </NonVisualComponents>
+  <Properties>
+    <Property name="resizable" type="boolean" value="false"/>
+    <Property name="type" type="java.awt.Window$Type" editor="org.netbeans.modules.form.editors.EnumEditor">
+      <Value id="UTILITY"/>
+    </Property>
+  </Properties>
+  <SyntheticProperties>
+    <SyntheticProperty name="menuBar" type="java.lang.String" value="jMenuBar3"/>
+    <SyntheticProperty name="formSizePolicy" type="int" value="1"/>
+    <SyntheticProperty name="generateCenter" type="boolean" value="true"/>
+  </SyntheticProperties>
+  <AuxValues>
+    <AuxValue name="FormSettings_autoResourcing" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_autoSetComponentName" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_generateFQN" type="java.lang.Boolean" value="true"/>
+    <AuxValue name="FormSettings_generateMnemonicsCode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_i18nAutoMode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_layoutCodeTarget" type="java.lang.Integer" value="1"/>
+    <AuxValue name="FormSettings_listenerGenerationStyle" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_variablesLocal" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_variablesModifier" type="java.lang.Integer" value="2"/>
+  </AuxValues>
+
+  <Layout>
+    <DimensionLayout dim="0">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" alignment="0" attributes="0">
+              <Component id="jPanel20" max="32767" attributes="0"/>
+              <EmptySpace max="-2" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+    <DimensionLayout dim="1">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" alignment="0" attributes="0">
+              <Component id="jPanel20" max="32767" attributes="0"/>
+              <EmptySpace max="-2" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+  </Layout>
+  <SubComponents>
+    <Container class="javax.swing.JPanel" name="jPanel20">
+
+      <Layout>
+        <DimensionLayout dim="0">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Group type="102" alignment="0" attributes="0">
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Component id="jPanel21" max="32767" attributes="0"/>
+                  <EmptySpace max="-2" attributes="0"/>
+              </Group>
+              <Group type="102" alignment="1" attributes="0">
+                  <Group type="103" groupAlignment="1" attributes="0">
+                      <Group type="102" alignment="1" attributes="0">
+                          <EmptySpace min="-2" pref="42" max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                              <Component id="jLabel95" alignment="0" max="32767" attributes="0"/>
+                              <Component id="jLabel97" alignment="0" max="32767" attributes="0"/>
+                              <Component id="jLabel87" alignment="0" max="32767" attributes="0"/>
+                              <Component id="jLabel88" alignment="0" max="32767" attributes="0"/>
+                              <Component id="jLabel89" alignment="0" max="32767" attributes="0"/>
+                              <Component id="jLabel90" alignment="0" max="32767" attributes="0"/>
+                              <Component id="jLabel91" alignment="0" max="32767" attributes="0"/>
+                              <Component id="jLabel92" alignment="0" max="32767" attributes="0"/>
+                              <Component id="jLabel94" alignment="0" max="32767" attributes="0"/>
+                              <Component id="jLabel93" alignment="0" max="32767" attributes="0"/>
+                          </Group>
+                          <EmptySpace type="unrelated" min="-2" max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="1" max="-2" attributes="0">
+                              <Component id="AOParametriVremePocetnogPraznjenjaMesalice" alignment="0" max="32767" attributes="0"/>
+                              <Component id="AOParametriPocetnoOtvaranjeMesalice" alignment="0" max="32767" attributes="0"/>
+                              <Component id="AOParametriVremeSmirivanjaVageFrakcije" alignment="0" pref="110" max="32767" attributes="0"/>
+                              <Component id="AOParametriVremePraznjenjaVageFrakcije" alignment="0" max="32767" attributes="0"/>
+                              <Component id="AOParametriVremePraznjenjaKoseTrake" alignment="0" max="32767" attributes="0"/>
+                              <Component id="AOParametriKontrolnoVremeKoseTrake" alignment="0" max="32767" attributes="0"/>
+                              <Component id="AOParametriZadrskaNaDoziranjeVode" alignment="0" max="32767" attributes="0"/>
+                              <Component id="AOParametriZadrskaNaDoziranjeCementa" alignment="0" max="32767" attributes="0"/>
+                              <Component id="AOParametriVremeMesanjaMaterijala" alignment="0" max="32767" attributes="0"/>
+                              <Component id="AOParametriVremeKonacnogPraznjenjaMesalice" alignment="1" max="32767" attributes="0"/>
+                          </Group>
+                          <EmptySpace type="separate" max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="0" attributes="0">
+                              <Component id="jLabel96" alignment="0" max="32767" attributes="0"/>
+                              <Component id="jLabel98" alignment="1" max="32767" attributes="0"/>
+                              <Component id="jLabel99" alignment="1" max="32767" attributes="0"/>
+                              <Component id="jLabel100" alignment="1" max="32767" attributes="0"/>
+                              <Component id="jLabel101" alignment="1" max="32767" attributes="0"/>
+                              <Component id="jLabel102" alignment="1" max="32767" attributes="0"/>
+                              <Component id="jLabel103" alignment="0" max="32767" attributes="0"/>
+                          </Group>
+                          <EmptySpace type="separate" max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                              <Component id="AOParametriVremeIspiranjaVageAditiva" alignment="0" pref="110" max="32767" attributes="0"/>
+                              <Component id="AOParametriPauzaFluidizacije" alignment="0" max="32767" attributes="0"/>
+                              <Component id="AOParametriRadFluidizacije" alignment="0" max="32767" attributes="0"/>
+                              <Component id="AOParametriKapacitetMesalice" alignment="0" max="32767" attributes="0"/>
+                              <Component id="AOParametriZadrskaNaStartKoseTrake" alignment="0" max="32767" attributes="0"/>
+                              <Component id="AOParametriVremeSmirivanjaVageAditiva" alignment="0" max="32767" attributes="0"/>
+                              <Component id="AOParametriVremeSmirivanjaVageCementa" alignment="0" max="32767" attributes="0"/>
+                          </Group>
+                          <EmptySpace min="-2" pref="8" max="-2" attributes="0"/>
+                      </Group>
+                      <Group type="102" alignment="1" attributes="0">
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Component id="jLabel86" max="32767" attributes="0"/>
+                      </Group>
+                  </Group>
+                  <EmptySpace min="-2" pref="38" max="-2" attributes="0"/>
+              </Group>
+          </Group>
+        </DimensionLayout>
+        <DimensionLayout dim="1">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Group type="102" alignment="0" attributes="0">
+                  <EmptySpace min="-2" max="-2" attributes="0"/>
+                  <Component id="jLabel86" min="-2" pref="30" max="-2" attributes="0"/>
+                  <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="1" attributes="0">
+                      <Group type="102" alignment="1" attributes="0">
+                          <Group type="103" groupAlignment="1" attributes="0">
+                              <Group type="102" alignment="1" attributes="0">
+                                  <Group type="103" groupAlignment="3" attributes="0">
+                                      <Component id="jLabel87" alignment="3" min="-2" pref="30" max="-2" attributes="0"/>
+                                      <Component id="AOParametriVremeSmirivanjaVageFrakcije" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  </Group>
+                                  <EmptySpace max="-2" attributes="0"/>
+                                  <Group type="103" groupAlignment="3" attributes="0">
+                                      <Component id="jLabel88" alignment="3" min="-2" pref="30" max="-2" attributes="0"/>
+                                      <Component id="AOParametriVremePraznjenjaVageFrakcije" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  </Group>
+                                  <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                                  <Group type="103" groupAlignment="3" attributes="0">
+                                      <Component id="jLabel89" alignment="3" min="-2" pref="30" max="-2" attributes="0"/>
+                                      <Component id="AOParametriVremePraznjenjaKoseTrake" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  </Group>
+                                  <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                                  <Group type="103" groupAlignment="1" attributes="0">
+                                      <Component id="jLabel90" alignment="1" min="-2" pref="30" max="-2" attributes="0"/>
+                                      <Component id="AOParametriKontrolnoVremeKoseTrake" alignment="1" min="-2" max="-2" attributes="0"/>
+                                  </Group>
+                              </Group>
+                              <Component id="AOParametriKapacitetMesalice" alignment="1" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="3" attributes="0">
+                              <Component id="jLabel91" alignment="3" min="-2" pref="30" max="-2" attributes="0"/>
+                              <Component id="jLabel101" alignment="3" min="-2" pref="30" max="-2" attributes="0"/>
+                              <Component id="AOParametriZadrskaNaDoziranjeVode" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="AOParametriZadrskaNaStartKoseTrake" alignment="3" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="3" attributes="0">
+                              <Component id="jLabel92" alignment="3" min="-2" pref="30" max="-2" attributes="0"/>
+                              <Component id="jLabel102" alignment="3" min="-2" pref="30" max="-2" attributes="0"/>
+                              <Component id="AOParametriZadrskaNaDoziranjeCementa" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="AOParametriVremeSmirivanjaVageAditiva" alignment="3" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="0" attributes="0">
+                              <Group type="103" alignment="0" groupAlignment="3" attributes="0">
+                                  <Component id="jLabel103" alignment="3" min="-2" pref="30" max="-2" attributes="0"/>
+                                  <Component id="AOParametriVremeMesanjaMaterijala" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="AOParametriVremeSmirivanjaVageCementa" alignment="3" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                              <Component id="jLabel93" alignment="0" min="-2" pref="30" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="3" attributes="0">
+                              <Component id="jLabel94" alignment="3" min="-2" pref="30" max="-2" attributes="0"/>
+                              <Component id="AOParametriPocetnoOtvaranjeMesalice" alignment="3" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="3" attributes="0">
+                              <Component id="jLabel95" alignment="3" min="-2" pref="30" max="-2" attributes="0"/>
+                              <Component id="AOParametriVremePocetnogPraznjenjaMesalice" alignment="3" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                      </Group>
+                      <Group type="102" alignment="1" attributes="0">
+                          <Group type="103" groupAlignment="3" attributes="0">
+                              <Component id="jLabel96" alignment="3" min="-2" pref="30" max="-2" attributes="0"/>
+                              <Component id="AOParametriVremeIspiranjaVageAditiva" alignment="3" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="3" attributes="0">
+                              <Component id="jLabel98" alignment="3" min="-2" pref="30" max="-2" attributes="0"/>
+                              <Component id="AOParametriPauzaFluidizacije" alignment="3" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="3" attributes="0">
+                              <Component id="jLabel99" alignment="3" min="-2" pref="30" max="-2" attributes="0"/>
+                              <Component id="AOParametriRadFluidizacije" alignment="3" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                          <Component id="jLabel100" min="-2" pref="30" max="-2" attributes="0"/>
+                          <EmptySpace min="-2" pref="206" max="-2" attributes="0"/>
+                      </Group>
+                  </Group>
+                  <EmptySpace min="-2" pref="11" max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="jLabel97" alignment="3" min="-2" pref="28" max="-2" attributes="0"/>
+                      <Component id="AOParametriVremeKonacnogPraznjenjaMesalice" alignment="3" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace pref="12" max="32767" attributes="0"/>
+                  <Component id="jPanel21" min="-2" max="-2" attributes="0"/>
+                  <EmptySpace pref="12" max="32767" attributes="0"/>
+              </Group>
+          </Group>
+        </DimensionLayout>
+      </Layout>
+      <SubComponents>
+        <Component class="javax.swing.JLabel" name="jLabel86">
+          <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="sansserif" size="18" style="1"/>
+            </Property>
+            <Property name="horizontalAlignment" type="int" value="0"/>
+            <Property name="text" type="java.lang.String" value="Zbirni parametri"/>
+          </Properties>
+        </Component>
+        <Container class="javax.swing.JPanel" name="jPanel21">
+
+          <Layout>
+            <DimensionLayout dim="0">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" alignment="0" attributes="0">
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Component id="jButtonPreletiSacuvaj1" min="-2" pref="164" max="-2" attributes="0"/>
+                      <EmptySpace max="32767" attributes="0"/>
+                      <Component id="jButtonParametriOdustani" min="-2" pref="151" max="-2" attributes="0"/>
+                      <EmptySpace max="-2" attributes="0"/>
+                  </Group>
+              </Group>
+            </DimensionLayout>
+            <DimensionLayout dim="1">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" alignment="0" attributes="0">
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Component id="jButtonParametriOdustani" alignment="0" pref="50" max="32767" attributes="0"/>
+                          <Component id="jButtonPreletiSacuvaj1" alignment="0" max="32767" attributes="0"/>
+                      </Group>
+                  </Group>
+              </Group>
+            </DimensionLayout>
+          </Layout>
+          <SubComponents>
+            <Component class="javax.swing.JButton" name="jButtonParametriOdustani">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Odustani"/>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jButtonParametriOdustaniActionPerformed"/>
+              </Events>
+            </Component>
+            <Component class="javax.swing.JButton" name="jButtonPreletiSacuvaj1">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Sacuvaj"/>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jButtonPreletiSacuvaj1ActionPerformed"/>
+              </Events>
+            </Component>
+          </SubComponents>
+        </Container>
+        <Component class="javax.swing.JLabel" name="jLabel87">
+          <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="sansserif" size="14" style="1"/>
+            </Property>
+            <Property name="horizontalAlignment" type="int" value="2"/>
+            <Property name="text" type="java.lang.String" value="- Vreme smirivanja vage frakcije (sec)"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="jLabel88">
+          <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="sansserif" size="14" style="1"/>
+            </Property>
+            <Property name="horizontalAlignment" type="int" value="2"/>
+            <Property name="text" type="java.lang.String" value="- Vreme pra&#x17e;njenja vage frakcije  (sec)"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="jLabel89">
+          <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="sansserif" size="14" style="1"/>
+            </Property>
+            <Property name="horizontalAlignment" type="int" value="2"/>
+            <Property name="text" type="java.lang.String" value="- Vreme pra&#x17e;njenja kose trake (sec)"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="jLabel90">
+          <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="sansserif" size="14" style="1"/>
+            </Property>
+            <Property name="horizontalAlignment" type="int" value="2"/>
+            <Property name="text" type="java.lang.String" value="- Kontrolno vreme kose trake (sec)"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="jLabel91">
+          <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="sansserif" size="14" style="1"/>
+            </Property>
+            <Property name="horizontalAlignment" type="int" value="2"/>
+            <Property name="text" type="java.lang.String" value="- Zadr&#x161;ka na doziranje vode (sec)"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="jLabel92">
+          <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="sansserif" size="14" style="1"/>
+            </Property>
+            <Property name="horizontalAlignment" type="int" value="2"/>
+            <Property name="text" type="java.lang.String" value="- Zadr&#x161;ka na doziranje cementa (sec)"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="jLabel93">
+          <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="sansserif" size="14" style="1"/>
+            </Property>
+            <Property name="horizontalAlignment" type="int" value="2"/>
+            <Property name="text" type="java.lang.String" value="- Vreme me&#x161;anja materijala  (sec)"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="jLabel94">
+          <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="sansserif" size="14" style="1"/>
+            </Property>
+            <Property name="horizontalAlignment" type="int" value="2"/>
+            <Property name="text" type="java.lang.String" value="- Po&#x10d;etno otvaranje me&#x161;alice  (sec)"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="jLabel95">
+          <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="sansserif" size="14" style="1"/>
+            </Property>
+            <Property name="horizontalAlignment" type="int" value="2"/>
+            <Property name="text" type="java.lang.String" value="- Vreme po&#x10d;etnog pra&#x17e;njenja me&#x161;alice  (sec)"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="jLabel96">
+          <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="sansserif" size="14" style="1"/>
+            </Property>
+            <Property name="horizontalAlignment" type="int" value="2"/>
+            <Property name="text" type="java.lang.String" value="- Vreme ispiranja vage aditiva (sec)"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="jLabel97">
+          <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="sansserif" size="14" style="1"/>
+            </Property>
+            <Property name="horizontalAlignment" type="int" value="2"/>
+            <Property name="text" type="java.lang.String" value="- Vreme kona&#x10d;nog pra&#x17e;njenja me&#x161;alice  (sec)"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="jLabel98">
+          <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="sansserif" size="14" style="1"/>
+            </Property>
+            <Property name="horizontalAlignment" type="int" value="2"/>
+            <Property name="text" type="java.lang.String" value="- Pauza fluidizacije (sec)"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="jLabel99">
+          <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="sansserif" size="14" style="1"/>
+            </Property>
+            <Property name="horizontalAlignment" type="int" value="2"/>
+            <Property name="text" type="java.lang.String" value="- Rad fluidizacije (sec)"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="jLabel100">
+          <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="sansserif" size="14" style="1"/>
+            </Property>
+            <Property name="horizontalAlignment" type="int" value="2"/>
+            <Property name="text" type="java.lang.String" value="- Kapacitet me&#x161;alice (m3)"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="jLabel101">
+          <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="sansserif" size="14" style="1"/>
+            </Property>
+            <Property name="horizontalAlignment" type="int" value="2"/>
+            <Property name="text" type="java.lang.String" value="- Zadr&#x161;ka na start kose trake (sec)"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="jLabel102">
+          <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="sansserif" size="14" style="1"/>
+            </Property>
+            <Property name="horizontalAlignment" type="int" value="2"/>
+            <Property name="text" type="java.lang.String" value="- Vreme smirivanja vage aditiva (sec)"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="jLabel103">
+          <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="sansserif" size="14" style="1"/>
+            </Property>
+            <Property name="horizontalAlignment" type="int" value="2"/>
+            <Property name="text" type="java.lang.String" value="- Vreme smirivanja vage cementa (sec)"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JSpinner" name="AOParametriVremeSmirivanjaVageFrakcije">
+          <Properties>
+            <Property name="model" type="javax.swing.SpinnerModel" editor="org.netbeans.modules.form.editors2.SpinnerModelEditor">
+              <SpinnerModel initial="1.0" maximum="300.0" minimum="0.0" numberType="java.lang.Double" stepSize="0.10000000149011612" type="number"/>
+            </Property>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JSpinner" name="AOParametriVremePraznjenjaVageFrakcije">
+          <Properties>
+            <Property name="model" type="javax.swing.SpinnerModel" editor="org.netbeans.modules.form.editors2.SpinnerModelEditor">
+              <SpinnerModel initial="1.0" maximum="300.0" minimum="0.0" numberType="java.lang.Double" stepSize="0.10000000149011612" type="number"/>
+            </Property>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JSpinner" name="AOParametriVremePraznjenjaKoseTrake">
+          <Properties>
+            <Property name="model" type="javax.swing.SpinnerModel" editor="org.netbeans.modules.form.editors2.SpinnerModelEditor">
+              <SpinnerModel initial="1.0" maximum="300.0" minimum="0.0" numberType="java.lang.Double" stepSize="0.10000000149011612" type="number"/>
+            </Property>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JSpinner" name="AOParametriKontrolnoVremeKoseTrake">
+          <Properties>
+            <Property name="model" type="javax.swing.SpinnerModel" editor="org.netbeans.modules.form.editors2.SpinnerModelEditor">
+              <SpinnerModel initial="1.0" maximum="300.0" minimum="0.0" numberType="java.lang.Double" stepSize="0.10000000149011612" type="number"/>
+            </Property>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JSpinner" name="AOParametriZadrskaNaDoziranjeVode">
+          <Properties>
+            <Property name="model" type="javax.swing.SpinnerModel" editor="org.netbeans.modules.form.editors2.SpinnerModelEditor">
+              <SpinnerModel initial="1.0" maximum="300.0" minimum="0.0" numberType="java.lang.Double" stepSize="0.10000000149011612" type="number"/>
+            </Property>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JSpinner" name="AOParametriZadrskaNaDoziranjeCementa">
+          <Properties>
+            <Property name="model" type="javax.swing.SpinnerModel" editor="org.netbeans.modules.form.editors2.SpinnerModelEditor">
+              <SpinnerModel initial="1.0" maximum="300.0" minimum="0.0" numberType="java.lang.Double" stepSize="0.10000000149011612" type="number"/>
+            </Property>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JSpinner" name="AOParametriVremeMesanjaMaterijala">
+          <Properties>
+            <Property name="model" type="javax.swing.SpinnerModel" editor="org.netbeans.modules.form.editors2.SpinnerModelEditor">
+              <SpinnerModel initial="1.0" maximum="300.0" minimum="0.0" numberType="java.lang.Double" stepSize="0.10000000149011612" type="number"/>
+            </Property>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JSpinner" name="AOParametriPocetnoOtvaranjeMesalice">
+          <Properties>
+            <Property name="model" type="javax.swing.SpinnerModel" editor="org.netbeans.modules.form.editors2.SpinnerModelEditor">
+              <SpinnerModel initial="1.0" maximum="300.0" minimum="0.0" numberType="java.lang.Double" stepSize="0.10000000149011612" type="number"/>
+            </Property>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JSpinner" name="AOParametriVremePocetnogPraznjenjaMesalice">
+          <Properties>
+            <Property name="model" type="javax.swing.SpinnerModel" editor="org.netbeans.modules.form.editors2.SpinnerModelEditor">
+              <SpinnerModel initial="1.0" maximum="300.0" minimum="0.0" numberType="java.lang.Double" stepSize="0.10000000149011612" type="number"/>
+            </Property>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JSpinner" name="AOParametriVremeKonacnogPraznjenjaMesalice">
+          <Properties>
+            <Property name="model" type="javax.swing.SpinnerModel" editor="org.netbeans.modules.form.editors2.SpinnerModelEditor">
+              <SpinnerModel initial="1.0" maximum="300.0" minimum="0.0" numberType="java.lang.Double" stepSize="0.10000000149011612" type="number"/>
+            </Property>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JSpinner" name="AOParametriVremeIspiranjaVageAditiva">
+          <Properties>
+            <Property name="model" type="javax.swing.SpinnerModel" editor="org.netbeans.modules.form.editors2.SpinnerModelEditor">
+              <SpinnerModel initial="1.0" maximum="300.0" minimum="0.0" numberType="java.lang.Double" stepSize="0.10000000149011612" type="number"/>
+            </Property>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JSpinner" name="AOParametriPauzaFluidizacije">
+          <Properties>
+            <Property name="model" type="javax.swing.SpinnerModel" editor="org.netbeans.modules.form.editors2.SpinnerModelEditor">
+              <SpinnerModel initial="1.0" maximum="300.0" minimum="0.0" numberType="java.lang.Double" stepSize="0.10000000149011612" type="number"/>
+            </Property>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JSpinner" name="AOParametriRadFluidizacije">
+          <Properties>
+            <Property name="model" type="javax.swing.SpinnerModel" editor="org.netbeans.modules.form.editors2.SpinnerModelEditor">
+              <SpinnerModel initial="1.0" maximum="300.0" minimum="0.0" numberType="java.lang.Double" stepSize="0.10000000149011612" type="number"/>
+            </Property>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JSpinner" name="AOParametriKapacitetMesalice">
+          <Properties>
+            <Property name="model" type="javax.swing.SpinnerModel" editor="org.netbeans.modules.form.editors2.SpinnerModelEditor">
+              <SpinnerModel initial="1.0" maximum="300.0" minimum="0.0" numberType="java.lang.Double" stepSize="0.10000000149011612" type="number"/>
+            </Property>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JSpinner" name="AOParametriZadrskaNaStartKoseTrake">
+          <Properties>
+            <Property name="model" type="javax.swing.SpinnerModel" editor="org.netbeans.modules.form.editors2.SpinnerModelEditor">
+              <SpinnerModel initial="1.0" maximum="300.0" minimum="0.0" numberType="java.lang.Double" stepSize="0.10000000149011612" type="number"/>
+            </Property>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JSpinner" name="AOParametriVremeSmirivanjaVageAditiva">
+          <Properties>
+            <Property name="model" type="javax.swing.SpinnerModel" editor="org.netbeans.modules.form.editors2.SpinnerModelEditor">
+              <SpinnerModel initial="1.0" maximum="300.0" minimum="0.0" numberType="java.lang.Double" stepSize="0.10000000149011612" type="number"/>
+            </Property>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JSpinner" name="AOParametriVremeSmirivanjaVageCementa">
+          <Properties>
+            <Property name="model" type="javax.swing.SpinnerModel" editor="org.netbeans.modules.form.editors2.SpinnerModelEditor">
+              <SpinnerModel initial="1.0" maximum="300.0" minimum="0.0" numberType="java.lang.Double" stepSize="0.10000000149011612" type="number"/>
+            </Property>
+          </Properties>
+        </Component>
+      </SubComponents>
+    </Container>
+  </SubComponents>
+</Form>
